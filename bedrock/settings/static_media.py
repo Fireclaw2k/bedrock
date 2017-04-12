@@ -1454,6 +1454,14 @@ PIPELINE_JS = {
         ),
         'output_filename': 'js/geolocation-bundle.js',
     },
+    'firefox-hub-home': {
+        'source_filenames': (
+            'js/libs/jquery.waypoints.min.js',
+            'js/libs/jquery.waypoints-sticky.min.js',
+            'js/firefox/hub/home.js',
+        ),
+        'output_filename': 'js/firefox-hub-home-bundle.js',
+    },
     'home': {
         'source_filenames': (
             'js/libs/jquery.cycle2.min.js',
