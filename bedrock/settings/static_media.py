@@ -600,7 +600,6 @@ PIPELINE_CSS = {
         'source_filenames': (
             'css/base/send-to-device.less',
             'css/firefox/horizon/background.less',
-            'css/firefox/mobile-download-desktop.less',
             'css/firefox/whatsnew/whatsnew-50.less',
         ),
         'output_filename': 'css/firefox_whatsnew_50-bundle.css',

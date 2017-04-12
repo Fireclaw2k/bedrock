@@ -437,6 +437,9 @@ class WhatsnewView(l10n_utils.LangFilesMixin, TemplateView):
         else:
             template = 'firefox/australis/whatsnew.html'
 
+        print '***********************'
+        print template
+        print '***********************'
         # return a list to conform with original intention
         return [template]
 
